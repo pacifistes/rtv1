@@ -1,0 +1,124 @@
+scene:
+	name: SCENE_1
+	camera:
+		pos: 0 20 -100
+	spot:
+		pos: 90 40 -120
+		color: 0x646464
+	spot:
+		pos: -90 40 -120
+		color: 0x646464
+ambiance: 0x452d6e 52
+object:
+	simple_obj:
+		name: plan_bleu
+		type: plan
+		pos: 0 0 70
+		dir: 0 0 -1
+		size: 0 0 0
+		color: 0x0000FF
+	simple_obj:
+		name: plan_bas
+		type: plan
+		pos: 0 -5 0
+		dir: 0 1 0
+		size: 0 0 0
+		color: 0x808080
+	simple_obj:
+		name: plan_haut
+		type: plan
+		pos: 0 50 0
+		dir: 0 1 0
+		size: 0 0 0
+		color: 0x808080
+	simple_obj:
+		name: sphere
+		type: sphere
+		pos: -30 -5 -30
+		dir: 0 0 0
+		size: 10 0 0
+		color: 0x909090
+	simple_obj:
+		name: sphere2
+		type: sphere
+		pos: 30 -5 -30
+		dir: 0 0 0
+		size: 10 0 0
+		color: 0x909090
+	simple_obj:
+		name: sphere3
+		type: sphere
+		pos: -30 -5 40
+		dir: 0 0 0
+		size: 10 0 0
+		color: 0x909090
+	simple_obj:
+		name: sphere4
+		type: sphere
+		pos: 30 -5 40
+		dir: 0 0 0
+		size: 10 0 0
+		color: 0x909090
+	simple_obj:
+		name: sphere5
+		type: sphere
+		pos: -30 50 -30
+		dir: 0 0 0
+		size: 10 0 0
+		color: 0x909090
+	simple_obj:
+		name: sphere6
+		type: sphere
+		pos: 30 50 -30
+		dir: 0 0 0
+		size: 10 0 0
+		color: 0x909090
+	simple_obj:
+		name: sphere7
+		type: sphere
+		pos: -30 50 40
+		dir: 0 0 0
+		size: 10 0 0
+		color: 0x909090
+	simple_obj:
+		name: sphere8
+		type: sphere
+		pos: 30 50 40
+		dir: 0 0 0
+		size: 10 0 0
+		color: 0x909090
+	simple_obj:
+		name: sphere rouge
+		type: sphere
+		pos: 0 2 -30
+		dir: 0 0 0
+		size: 5 0 0
+		color: 0xff0000
+	simple_obj:
+		name: cylindr1
+		type: cylindre
+		pos: -30 25 -30
+		dir: 0 1 0
+		size: 7 100 0
+		color: 0x909090
+	simple_obj:
+		name: cylindr2
+		type: cylindre
+		pos: 30 25 -30
+		dir: 0 1 0
+		size: 7 100 0
+		color: 0x909090
+	simple_obj:
+		name: cylindr3
+		type: cylindre
+		pos: -30 25 40
+		dir: 0 1 0
+		size: 7 100 0
+		color: 0x909090
+	simple_obj:
+		name: cylindr4
+		type: cylindre
+		pos: 30 25 40
+		dir: 0 1 0
+		size: 7 100 0
+		color: 0x909090

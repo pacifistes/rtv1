@@ -1,0 +1,23 @@
+scene:
+	name: SCENE_1
+	camera:
+		pos: 0 0 0
+	spot:
+		pos: 50 10 30
+		color: 0xFFFFFF
+ambiance: 0x452d6e 52
+object:
+	simple_obj:
+		name: cone jaune
+		type: cone
+		pos: 0 10 100
+		dir: 0 1 0
+		size: 0 90 0
+		color: 0xFFFF00
+	simple_obj:
+		name: plan bleu
+		type: plan
+		pos: 890 -5 0
+		dir: 0 1 0
+		size: 0 0 0
+		color: 0x0000FF

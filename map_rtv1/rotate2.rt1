@@ -1,0 +1,23 @@
+scene:
+	name: SCENE_1
+	camera:
+		pos: 890 520 -10
+	spot:
+		pos: 910 520 -10
+		color: 0xFFFFFF
+ambiance: 0x452d6e 52
+object:
+	simple_obj:
+		name: cylindr vert
+		type: cylindre
+		pos: 880 520 10
+		dir: 0 1 0
+		size: 4 100 0
+		color: 0x336600
+	simple_obj:
+		name: cylindr ver2
+		type: cylindre
+		pos: 880 520 10
+		dir: 0 0 1
+		size: 4 100 0
+		color: 0x336600

@@ -1,0 +1,23 @@
+scene:
+	name: SCENE_1
+	camera:
+		pos: 0 20 -100
+	spot:
+		pos: 25 20 -90
+		color: 0xffffff
+ambiance: 0xffffff 50
+object:
+	simple_obj:
+		name: plan_bleu
+		type: plan
+		pos: 0 0 0
+		dir: 0 0 -1
+		size: 0 0 0
+		color: 0x0000FF
+	simple_obj:
+		name: plan_gris
+		type: plan
+		pos: 0 -5 0
+		dir: 0 1 0
+		size: 0 0 0
+		color: 0x646464
